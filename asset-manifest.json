@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Practico3/static/css/main.b9c24dca.css",
+    "main.js": "/Practico3/static/js/main.3ace0871.js",
+    "static/js/787.119b894c.chunk.js": "/Practico3/static/js/787.119b894c.chunk.js",
+    "index.html": "/Practico3/index.html",
+    "main.b9c24dca.css.map": "/Practico3/static/css/main.b9c24dca.css.map",
+    "main.3ace0871.js.map": "/Practico3/static/js/main.3ace0871.js.map",
+    "787.119b894c.chunk.js.map": "/Practico3/static/js/787.119b894c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9c24dca.css",
+    "static/js/main.3ace0871.js"
+  ]
+}
