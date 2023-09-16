@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Juego de Piedra, Papel o Tijeras
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido al juego de Piedra, Papel o Tijeras. ¡Es hora de poner a prueba tus habilidades y vencer a la computadora!
 
-## Available Scripts
+## Acerca del Juego
 
-In the project directory, you can run:
+Este juego es una versión digital del clásico juego de Piedra, Papel o Tijeras. El objetivo es simple: elige una de las tres opciones (Piedra, Papel o Tijeras) en cada ronda y compite contra la computadora. Cada ronda tiene un ganador, y el jugador que gane más rondas será el ganador general del juego.
 
-### `npm start`
+## Cómo Jugar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Inicia el juego ingresando tu nombre.
+2. Elige el número máximo de rondas que deseas jugar.
+3. Selecciona Piedra, Papel o Tijeras en cada ronda.
+4. Observa los resultados y comprueba quién gana cada ronda.
+5. Al final del juego, se mostrará el resultado final.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnología Utilizada
 
-### `npm test`
+Esta aplicación se ha creado utilizando las siguientes tecnologías:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Una biblioteca de JavaScript para construir interfaces de usuario interactivas. [Más información](https://reactjs.org/)
+- **Styled-Components**: Una biblioteca para aplicar estilos a componentes de React mediante CSS en JS. [Más información](https://styled-components.com/)
+- **HTML y CSS**: Para la estructura y los estilos visuales de la aplicación.
+- **JavaScript**: Para la lógica del juego y las interacciones del usuario.
+## Codigo
+App.js: Este archivo es el punto de entrada principal de la aplicación. Contiene la estructura principal de la aplicación, como el encabezado y el contenedor principal. También renderiza el componente AppGame, que es el componente principal del juego.
 
-### `npm run build`
+1. AppGame.js: El componente principal del juego. Aquí se gestiona toda la lógica del juego, desde la selección de opciones hasta el cálculo de los resultados y el control del flujo del juego.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. GameOptions.js: Este componente se encarga de mostrar las opciones de juego al jugador y de manejar la selección de las mismas. Recibe las opciones y el estado del juego y llama a la función de manejo cuando el jugador elige una opción.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. GameResults.js: Muestra los resultados del juego, como el mensaje de quién ganó o si hubo un empate. Recibe los resultados como propiedades y los muestra en la interfaz de usuario.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Scoreboard.js: Muestra la puntuación actual del jugador y la computadora, así como el número de empates. Recibe esta información como propiedades y la presenta de manera legible para el jugador.
 
-### `npm run eject`
+5. Modal.js: Este componente representa el modal de inicio del juego. Permite al jugador ingresar su nombre antes de comenzar a jugar y proporciona un mensaje de bienvenida e instrucciones.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. ResultModal.js: Es el modal que se muestra al finalizar el juego, mostrando el resultado final y ofreciendo la opción de reiniciar el juego.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. CustomButton.js: Un componente personalizado para botones que se utiliza en varias partes de la aplicación.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. AppContainer.js y ContentContainer.js: Componentes que se encargan del diseño y estructura de la aplicación, como contenedores principales.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9. index.js: El archivo de entrada principal que inicia la aplicación React y lo conecta al punto de entrada del HTML.
 
-## Learn More
+10. Modal.css: Archivo de hoja de estilo CSS para estilizar el componente Modal.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+11. Scoreboard: muestra la puntuación del jugador, la puntuación de la computadora y el número de empates de manera estilizada utilizando styled-components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Creado por Emanuel David Ponce
