@@ -29,5 +29,3 @@ const ResultModalContent = styled.div`
   text-align: center;  // Centra el texto dentro del componente
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  // Agrega una sombra al componente
 `;
-
-
